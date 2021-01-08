@@ -1,0 +1,23 @@
+{
+  "name": "otcprice",
+  "version": "1.0.0",
+  "description": "crawl huobi otc price",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "otc",
+    "price",
+    "huobi"
+  ],
+  "author": "guotie",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^4.14.1",
+    "moment": "^2.24.0",
+    "puppeteer": "^1.20.0",
+    "puppeteer-core": "^1.20.0",
+    "redis": "^2.8.0"
+  }
+}
